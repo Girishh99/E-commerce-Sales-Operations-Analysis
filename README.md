@@ -102,3 +102,8 @@ Designed an interactive Power BI dashboard with:
 - Built end-to-end analytics pipeline (Excel → Power BI)
 - Applied DAX, data modeling, and business storytelling
 - Developed decision-focused dashboards
+
+## 📸 Dashboard Preview
+<img width="1306" height="727" alt="ShopNest_Screenshot" src="https://github.com/user-attachments/assets/19e6d170-9e12-4e2e-9a41-6a5f3a140224" />
+
+
