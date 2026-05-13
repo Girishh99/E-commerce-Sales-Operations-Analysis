@@ -1,107 +1,143 @@
 # 🛒 E-commerce Sales & Operations Analysis 
-### Power BI + Excel | End-to-End Business Insights
+### Power BI | End-to-End Business Insights
 
 ## 📌 Overview
-This project delivers a comprehensive E-Commerce Sales & Operations Analysis by combining Power BI dashboarding with Excel-based exploratory analysis.
+TThis project focuses on analyzing the business performance of ShopNest Store, an e-commerce platform, using Power BI.
+The dashboard was developed using multiple datasets related to orders, customers, payments, products, and reviews to uncover insights into sales performance, customer behavior, delivery efficiency, and operational bottlenecks.
 
-Analyzed 10,000+ transactional records across 9 datasets to uncover insights on revenue, customer behavior, and delivery operations.
+The objective was to create an interactive business intelligence dashboard that enables stakeholders to monitor KPIs, identify revenue-driving categories, evaluate customer payment behavior, and analyze delivery performance.
 
 ## 🎯 Business Problem
 E-commerce businesses often struggle to:
 
-- Track revenue drivers and growth trends
-- Understand customer behavior and payment preferences
-- Identify delivery inefficiencies and operational bottlenecks
-- Optimize product performance and regional sales
+- Track overall sales performance
+- Analyze customer purchasing patterns
+- Identify delivery inefficiencies
+- Understand top and low-performing product categories
+- Monitor regional sales distribution
+- Build a centralized reporting dashboard for decision-making
 
 ## 🧰 Tech Stack
-- Power BI – Data modeling, DAX, interactive dashboards
-- Microsoft Excel – Data cleaning, transformation, pivot analysis
-- DAX – KPI calculations & business metrics
-- Data Modeling – Star schema design
+- Power BI
+- Power Query
+- DAX (Data Analysis Expressions)
+- Data Modeling
+- Star Schema
+- Interactive Dashboard Design
 
 ## 📂 Dataset
-- 📦 10K+ Orders
-- 👥 5K+ Customers
-- 💳 Multiple payment types
-- ⭐ Customer reviews & delivery data
-- 📊 9+ relational tables
+The project was built using 9 interconnected datasets, including:
 
-## ⚙️ Project Workflow
-### 🔹 1. Data Preparation (Excel)
-- Cleaned and structured raw datasets
-- Created derived features:
-    - Time slots (Morning, Evening, etc.)
-    - Weekday vs Weekend classification
-    - Products per order
-    - Delivery time breakdown (Order → Delivery stages)
-- Applied Excel functions:
-    - IF, COUNT, COUNTA
-    - SUM, AVERAGE
-    - Time difference calculations
-    - Percentage metrics (Completion rate, Discounts, Delivery charges)
+- Orders
+- Customers
+- Payments
+- Products
+- Reviews
+- Product Category Translation
+- Sellers
+- Order Items
+- Geolocation Data
 
-### 🔹 2. Data Modeling (Power BI)
-- Designed a 9-table relational data model
-- Implemented star schema, improving query efficiency
-- Enabled seamless cross-table analysis
+## Data Preparation
+**Key Steps Performed**
+- Loaded and transformed datasets using Power Query
+- Cleaned and standardized column names and data types
+- Established relationships across tables using Star Schema principles
+- Created calculated columns and measures using DAX
+- Built a scalable relational data model for analysis
 
-### 🔹 3. KPI Development (DAX)
-Created key business metrics:
-- 💰 Total Revenue
-- 🛒 Average Order Value (AOV)
-- 📈 Revenue Growth %
-- 🚚 Delayed Orders %
-- ✅ Order Completion Rate
-- 👤 Customer Lifetime Value (LTV)
+## 📊 Dashboard Features & Analysis
+### 1️⃣ Sales Performance Analysis
+- Analyzed yearly sales trends
+- Identified revenue growth over time
+- Tracked total revenue generated
 
-### 🔹 4. Dashboard & Visualizations
-Designed an interactive Power BI dashboard with:
-- 📊 Bar Chart → Top product categories by revenue
-- 📈 Line Chart → Sales & revenue trends over time
-- 🍩 Donut Chart → Payment method distribution
-- 🗺️ Map Visualization → State-wise sales performance
-- 📦 Stacked Column Chart → Delayed vs on-time deliveries
-- 🎯 Slicers & Drill-through → Dynamic filtering & deep analysis
+**Key Metrics Created**
+- Total Revenue
+- Average Order Value (AOV)
+- Revenue Growth %
+- Delayed Orders %
+- On-Time Orders
 
-## 🔍 Key Analysis Performed
-### 📦 Sales & Product Analysis
-- Identified Top 5 categories contributing ~60–70% of total revenue
-### 🌍 Regional Analysis
-- Top 3 regions contributed ~50%+ of overall sales
-### 👥 Customer Analysis
-- Identified high-value customers contributing ~30–40% of revenue
-- Compared multiple acquisition channels
-### 🚚 Operations & Delivery Analysis
-- Detected 15–25% delayed orders in certain categories
-- Identified key delivery bottlenecks
-### ⏱️ Time-Based Analysis
-- Peak demand observed in evening slots contributing ~35% of orders
+### 2️⃣ Top Product Categories
 
-## 📈 Key Insights & Impact
--  Identified top revenue-generating categories & regions driving business growth
--  Detected high delivery delays in specific categories and time slots, highlighting operational inefficiencies
--  Discovered low completion rates under certain conditions, enabling targeted improvements
--  Found strong relationships between delivery time, order size, and customer ratings
--  Identified high-value customer acquisition channels using LTV analysis
--  Enabled better resource allocation using demand pattern insights
+Used clustered bar charts to identify:
+- Top 10 highest revenue-generating categories
+- Bottom 10 lowest-rated product categories
 
-## 📊 Outcome
-- Built a fully interactive Power BI dashboard used for multi-dimensional analysis
-- Delivered insights across:
-    - 📦 Sales
-    - 👥 Customers
-    - 🚚 Operations
-- Provided data-backed recommendations to improve:
-    - Delivery efficiency
-    - Customer satisfaction
-    - Revenue optimization
- 
-## 💡 Key Learnings
-- Worked with 10K+ real-world-like data records
-- Built end-to-end analytics pipeline (Excel → Power BI)
-- Applied DAX, data modeling, and business storytelling
-- Developed decision-focused dashboards
+**Top Performing Categories**
+- Bed Bath Table
+- Health Beauty
+- Sports Leisure
+- Computer Accessories
+
+**Lowest Rated Categories**
+- Furniture Mattress
+- Flowers
+- Fashion Children
+- Security & Services
+
+### 3️⃣ Delivery Performance Analysis
+
+Built delivery tracking visuals to compare:
+
+- Delayed Orders
+- On-Time Orders
+- No Delivery Orders
+
+**Insights**
+- Certain product categories experienced higher delivery delays
+- Delivery inefficiencies impacted customer satisfaction
+
+### 4️⃣ Payment Method Analysis
+
+Created a donut/pie chart to analyze customer payment preferences.
+
+**Key Finding**
+- Credit Card was the most frequently used payment method.
+
+### 5️⃣ Regional Sales Analysis
+
+Analyzed state-wise sales distribution to identify:
+
+- Highest revenue-generating states
+- Lowest performing states
+
+**Insights**
+- State SP generated the highest sales
+- State RR recorded the lowest sales
+
+### 6️⃣ Seasonal Sales Trend Analysis
+
+Performed quarterly sales analysis to identify seasonal patterns.
+
+**Findings**
+- Sales peaked during Q2 2018
+- Decline in sales was directly associated with reduced order volume
+
+## 📈 Business Impact
+
+This dashboard helped in:
+- Identifying high-performing product categories
+- Detecting operational bottlenecks in deliveries
+- Monitoring sales trends dynamically
+- Improving decision-making through interactive reporting
+- Enabling detailed drill-through analysis for stakeholders
+
+## 🚀 Key Learnings
+
+Through this project, I gained hands-on experience in:
+- Power BI dashboard development
+- DAX calculations
+- Data modeling using Star Schema
+- Business KPI analysis
+- Interactive visualization design
+- Operational and sales analytics
+
+## 📎 Project Files
+- Power BI Dashboard (.pbix)
+- Dashboard Documentation
+- Dashboard Preview Image
 
 ## 📸 Dashboard Preview
 <img width="1306" height="727" alt="ShopNest_Screenshot" src="https://github.com/user-attachments/assets/19e6d170-9e12-4e2e-9a41-6a5f3a140224" />
