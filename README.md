@@ -2,7 +2,7 @@
 ### Power BI | End-to-End Business Insights
 
 ## 📌 Overview
-TThis project focuses on analyzing the business performance of ShopNest Store, an e-commerce platform, using Power BI.
+This project focuses on analyzing the business performance of ShopNest Store, an e-commerce platform, using Power BI.
 The dashboard was developed using multiple datasets related to orders, customers, payments, products, and reviews to uncover insights into sales performance, customer behavior, delivery efficiency, and operational bottlenecks.
 
 The objective was to create an interactive business intelligence dashboard that enables stakeholders to monitor KPIs, identify revenue-driving categories, evaluate customer payment behavior, and analyze delivery performance.
